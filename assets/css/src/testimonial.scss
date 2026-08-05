@@ -1,0 +1,36 @@
+.testimonial-container {
+	margin: 8px;
+	padding: 40px 0;
+	@media screen and (min-width: $media-lg) {
+		margin: 0 100px 120px;	
+	}
+}
+.testimonial {
+    border-radius: 40px;
+    padding: 40px 20px;
+	background: $extraLightBlueGray;
+	color: $nearBlack;
+	@media screen and (min-width: $media-lg) {
+		border-radius: 140px;
+		padding: 200px 120px;
+	}
+	.quote {
+		text-align: center;
+		line-height: 1.4;
+		font-size: 24px;
+		@media screen and (min-width: $media-lg) {
+			font-size: 36px;
+		}
+		@media screen and (min-width: $media-xl) {
+			font-size: 42px;
+		}
+	}
+	.author {
+		text-align: center;
+		font-style: italic;
+		font-size: 18px;
+		@media screen and (min-width: $media-lg) {
+			font-size: 24px;
+		}
+	}
+}

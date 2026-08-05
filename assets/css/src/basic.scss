@@ -1,0 +1,246 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	overflow-x: hidden;
+}
+
+#body-wrapper {
+	font-family: "Roboto", sans-serif;
+	overflow-x: hidden;
+	position: relative;
+}
+
+h1, h2, h3 {
+	font-weight: 800;
+	font-family: 'Lato', sans-serif;
+}
+
+h2 {
+	margin-bottom: $pad*4;
+	font-size: 42px;
+	@media screen and (min-width: $media-lg) {
+		font-size: 52px;
+	}
+	&.bar {
+		text-align: center;
+		background: $darkBlue;
+		color: $white;
+		padding: 180px 0;
+		margin-bottom: 80px;
+	}
+}
+h3 {
+	font-size: 36px;
+	margin-bottom: 24px;
+}
+h4 {
+	font-weight: 800;
+}
+p {
+	font-size: 24px;
+}
+a {
+	color: $actionColor;
+	&:hover {
+		color: $actionColorHover;
+	}
+}
+
+.btn {
+	border-radius: 50px !important;
+	padding: 16px 20px !important;
+}
+
+.btn-primary {
+	background: $actionColor;
+	border-color: $actionColor;
+	&:hover {
+		background: $actionColorHover;
+		border-color: $actionColorHover;
+
+		cursor: pointer;
+	}
+}
+.btn-secondary {
+	background: $white;
+	color: $actionColor;
+	border-color: $actionColor;
+	&:hover {
+		background: $extraLightGray;
+		color: $actionColor;
+		border-color: $actionColor;
+	}
+}
+.section {
+	padding: $pad*27 $pad*3 0 ;
+	position: relative;
+}
+.content {
+	margin-bottom: $pad*10;
+	@media screen and ( min-width: $media-md ) {
+		padding: 0 $pad*12;
+	}
+	@media screen and ( min-width: $media-lg ) {
+		margin-bottom: $pad*15;
+		padding: 0 $pad*40;
+	}
+}
+
+.section-text {
+    line-height: 1.6em;
+    font-size: 22px;
+    margin-bottom: $pad*4;
+    @media screen and ( min-width: $media-xl ) {
+    	font-size: 20px;
+    }
+}
+.bullet-list {
+	font-size: 22px;
+	line-height: 1.6em;
+	padding-left: $pad*7;
+	@media screen and ( min-width: $media-xl ) {
+		font-size: 20px;
+	}
+	li {
+		margin-bottom: $pad*3;
+	}
+}
+.plain-list {
+	list-style-type: none;
+	font-size: 18px;
+	line-height: 1.6em;
+	padding-left: 0;
+	@media screen and ( min-width: $media-xl ) {
+		font-size: 20px;
+	}
+	li {
+		margin-bottom: $pad;
+	}
+}
+.footnote {
+	display: block;
+	font-size: 12px;
+	line-height: 1.6;
+	color: $greyText;
+}
+
+.image {
+	margin-bottom: $pad*4;
+	width: 100%;
+	@media screen and ( min-width: $media-md ) {
+		//margin-bottom: $pad*10;
+	}
+}
+
+#how-it-works, #features, #philosophy, #privacy, #team {
+	padding: 100px 0 60px;
+}
+#how-it-works {
+	margin-bottom: 0px;
+	@media screen and (min-width: $media-lg) {
+		margin-bottom: 40px;
+	}
+	.wistia_responsive_wrapper {
+		box-shadow: 34px 34px 60px rgb(0 0 0 / 27%);
+	}
+}
+#features, #pathways {
+	@media screen and (min-width: $media-lg) {
+		//padding: 0px 0 180px;
+	}
+	
+	.row {
+		padding: 20px 0;
+	}
+	.icon {
+		display: block;
+		width: 200px;
+		height: 200px;
+	}
+}
+#what-is-a-drc, #philosophy, #contact {
+	.perspective {
+		perspective: 800px;
+	}
+	.photo {
+		width: 100%;
+		border-radius: 20px;
+		transform: rotate3d(0, 1, 0, -5deg);
+		box-shadow: 34px 34px 60px rgb(0 0 0 / 27%);
+		border: 3px solid white;
+		margin-bottom: 80px;
+		@media screen and (min-width: $media-xl) {
+			margin-bottom: 0;
+		}
+	}
+}
+#pathways {
+	padding: 160px 0;
+	@media screen and (min-width: $media-xl) {
+		padding: 260px 0;
+	}
+	.list-number {
+		font-size: 80px;
+		margin-right: 72px;
+		color: $blue;
+		line-height: 1;
+	}
+	.icon {
+		display: block;
+		width: 100px;
+		height: 100px;
+		margin: 0 auto 40px;
+		@media screen and (min-width: $media-md) {
+			margin: 0 40px;
+		}
+		@media screen and (min-width: $media-lg) {
+			margin: 0;
+		}
+	}
+	.text {
+		@media screen and (min-width: $media-lg) {
+			margin-left: 40px;
+		}
+	}
+}
+#philosophy {
+	@media screen and (min-width: $media-lg) {
+		//margin-top: 180px;
+		margin-bottom: 80px;
+	}
+}
+#privacy {
+	//padding: 0;
+	@media screen and (min-width: $media-lg) {
+		//padding: 220px 0 40px;
+	}
+	@media screen and (min-width: $media-xl) {
+		//padding: 220px 0 180px;
+	}
+	.container-fluid {
+		padding-top: 80px;
+	}
+	.icon {
+		@media screen and (min-width: $media-md) {
+			width: 400px;
+			display: block;
+			margin: 0 auto;
+		}
+		@media screen and (min-width: $media-lg) {
+			width: 100%;
+		}
+	}
+}
+#contact {
+	padding: 0;
+	@media screen and (min-width: $media-lg) {
+		margin-top: 120px;
+		padding: 0 0 180px;
+	}
+	.perspective {
+		@media screen and (min-width: 1600px) {
+			padding-left: 70px;
+		}
+	}
+}

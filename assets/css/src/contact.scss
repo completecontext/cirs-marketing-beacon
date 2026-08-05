@@ -1,0 +1,64 @@
+#contact {
+	.content {
+		@media screen and ( min-width: $media-xl ) {
+			padding: 0 $pad*65;
+		}
+	}
+}
+
+
+#contact .content {
+	margin-bottom: $pad*5;
+	@media screen and ( min-width: $media-xl ) {
+		padding: 0 $pad*65;
+	}
+	
+}
+#contact-form {
+	.form-group {
+		margin-bottom: $pad*6;
+	}
+	label {
+		font-size: 22px;
+		display: none;
+	}
+	input {
+		font-size: 22px;
+		height: 80px;
+		border-radius: 40px;
+		padding: 20px;
+		@media screen and ( min-width: $media-xl ) {
+			font-size: 20px;
+		}
+	}
+	textarea {
+		font-size: 22px;
+		padding: 20px;
+		border-radius: 40px;
+		@media screen and ( min-width: $media-xl ) {
+			font-size: 20px;
+		}
+	}
+	.btn-primary {
+		display: block;
+		width: 100%;
+		font-size: 22px;
+		font-weight: 400;
+		letter-spacing: 1px;
+		height: auto;
+		padding: $pad*4 0;
+	}
+	.form-control.error {
+		border: 1px solid $red;
+	}
+	label.error {
+		font-size: 16px;
+		color: $red;
+		padding-top: $pad*2;
+	}
+	
+}
+
+#thank-you {
+	display: none;
+}

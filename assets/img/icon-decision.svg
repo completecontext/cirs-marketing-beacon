@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#004294;stroke-width:18;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFCA00;stroke-width:18;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;stroke:#004294;stroke-width:18;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{fill:#7BC8FF;stroke:#004294;stroke-width:18;stroke-linecap:round;stroke-linejoin:round;}
+	.st4{fill:#FFCA00;}
+	.st5{fill:none;stroke:#004294;stroke-width:18;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g id="decision_making">
+	<circle class="st0" cx="374.7" cy="382.5" r="103.5"/>
+	<circle class="st0" cx="720.8" cy="382.5" r="103.5"/>
+	<polyline class="st1" points="330.5,384.4 369.8,423.7 416.5,341.4 	"/>
+	<line class="st2" x1="751.8" y1="351.5" x2="689.8" y2="413.6"/>
+	<line class="st2" x1="689.8" y1="351.5" x2="751.8" y2="413.6"/>
+	<path class="st3" d="M470.9,747.9c-8.4,0-15.1-6.8-15.1-15.2c0-0.9,0.1-1.8,0.3-2.7c9.9-53.9,61.7-89.6,115.6-79.7
+		c40.6,7.5,72.3,39.2,79.7,79.7c1.5,8.2-3.9,16.1-12.1,17.7c-0.9,0.2-1.8,0.3-2.7,0.3L470.9,747.9z"/>
+	<circle class="st3" cx="553.7" cy="602.9" r="72.2"/>
+	<circle class="st4" cx="720.8" cy="651.4" r="14.2"/>
+	<line class="st5" x1="720.8" y1="522.8" x2="720.8" y2="613.3"/>
+	<line class="st5" x1="654.1" y1="656.2" x2="683.5" y2="656.2"/>
+	<circle class="st4" cx="374.7" cy="651.4" r="14.2"/>
+	<line class="st5" x1="374.7" y1="522.8" x2="374.7" y2="613.3"/>
+	<line class="st5" x1="441" y1="656.2" x2="411.6" y2="656.2"/>
+	<path class="st2" d="M770.9,182.1C705,137.6,627.3,113.9,547.7,114c-220.4,0-399.2,178.7-399.2,399.2s178.7,399.2,399.2,399.2
+		s399.2-178.7,399.2-399.2c0.1-99-36.7-194.6-103.2-267.9"/>
+	<circle class="st4" cx="807.5" cy="211.2" r="12.9"/>
+</g>
+</svg>

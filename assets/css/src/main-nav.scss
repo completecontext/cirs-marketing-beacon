@@ -1,0 +1,170 @@
+#main-nav-container {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	padding: 10px 0;
+	background: $headerBg;
+	border-top: 6px solid $blue;
+	box-shadow: 0 6px 36px rgb(0 0 0 / 20%);
+  &.nav-open {
+  	//position: absolute;
+  }
+}
+#nav-cta-container {
+	display: flex;
+	@media screen and ( min-width: $media-lg ) {
+		display: block;
+	}
+	.btn {
+		flex-grow: 1;
+		&:first-child {
+			margin-right: 8px;
+		}
+	}
+}
+#main-logo {
+	display: block;
+	width: 200px;
+	height: 50px;
+	background: url('/assets/img/logo-wide-white.svg') no-repeat;
+	background-size: contain;
+	margin: 2px $pad*5;
+	@media screen and ( min-width: $media-sm ) {
+		width: 200px;
+		height: 50px;
+		margin: 10px 20px;
+	}
+	@media screen and ( min-width: $media-lg ) {
+		display: inline-block;
+	}
+}
+#main-nav-toggle {
+	position: absolute;
+	top: 12px;
+	right: 20px;
+	border: 1px solid $white;
+	border-radius: $borderRad;
+	padding: $pad*2;
+	color: $white;
+	&:hover {
+		cursor: pointer;
+	}
+	@media screen and ( min-width: $media-lg ) {
+		display: none;
+	}
+	.text {
+		text-transform: uppercase;
+		letter-spacing: 0.5px;
+		font-size: 14px;
+		margin-right: $pad;
+		display: inline-block;
+	}
+	.oi {
+		font-size: 16px;
+		display: inline-block;
+	}
+}
+#main-nav {
+	display: none;
+	  position: fixed;
+	  width: 100%;
+	  background: $white;
+	  padding: 20px 20px 0;
+	  top: 70px;
+	  border-bottom: $pad solid $accentColor;
+	  @media screen and ( min-width: $media-sm ) {
+	  	width: 340px;
+	  	right: 0;
+	  	border-left: 1px solid #ddd;
+	  }
+	  @media screen and ( min-width: $media-lg ) {
+	  	background: $navBg;
+		padding: 0;
+		display: inline-block;
+		width: auto;
+		background: 0 0;
+		border: none;
+		top: 16px;
+		left: 240px;
+		margin-top: 11px;
+	  }
+	  @media screen and ( min-width: $media-xl ) {
+	  	top: 14px;
+	  }
+		&.nav-open {
+			display: block;
+		}
+		.btn {
+			display: block;
+			padding: $pad*2 0;
+			font-size: 24px;
+			font-weight: 800;
+			letter-spacing: 1px;
+			margin-bottom: 12px;
+			@media screen and ( min-width: $media-lg ) {
+				margin-bottom: 0;
+				display: block;
+				float: right;
+				width: auto;
+				padding: $pad*4 $pad*3;
+				border-radius: $pad;
+				font-size: 11px;
+				font-weight: 800;
+				text-transform:uppercase;
+				letter-spacing: 0.5px;
+				line-height: 1;
+				&.btn-primary {
+					margin-right: $pad*3;
+				}
+			}
+			@media screen and ( min-width: $media-xl ) {
+			font-size: 12px;
+		}
+	}
+	.btn-primary {
+		@media screen and ( min-width: $media-lg ) {
+			border: 1px solid #fff;
+		}
+		svg {
+			width: 12px;
+			height: 12px;
+			margin-top: -4px;
+		}
+	}
+	.btn-secondary {
+		@media screen and ( min-width: $media-lg ) {
+			margin-right: 8px;
+		}
+		
+	}
+}
+.nav-link {
+	color: $actionColor;
+	border-bottom: 1px solid #f1f1f1;
+	padding: $pad*4 $pad*3;
+	font-size: 24px;
+	&:last-child {
+		border: none;
+	}
+	@media screen and ( min-width: $media-lg ) {
+		color: $white;
+		border-radius: $pad;
+		&:hover {
+			color: $actionColor;
+			background: $white;
+		}
+	}
+	
+	@media screen and ( min-width: $media-lg ) {
+		display: inline-block;
+		border: none;
+		font-size: 16px;
+		font-weight: 400;
+	}
+	@media screen and ( min-width: $media-xl ) {
+
+	}
+}
