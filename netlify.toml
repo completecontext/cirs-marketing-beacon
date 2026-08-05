@@ -1,4 +1,10 @@
 [build]
+  # No build step — main.css is already compiled and committed; gulp is
+  # only for local SCSS editing, not part of deploy. Explicit no-op
+  # instead of omitting `command` entirely, since Netlify's own
+  # auto-detection (seeing gulpfile.js/package.json) otherwise defaults
+  # to running `gulp build`, which isn't a defined task in this gulpfile.
+  command = "echo 'No build needed — static site with pre-compiled assets'"
   publish = "."
 
 [[headers]]
